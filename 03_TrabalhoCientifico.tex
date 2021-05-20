@@ -1,0 +1,367 @@
+\documentclass[t]{beamer}
+
+% Load general definitions
+\input{preamble.tex}
+
+% Specific definitions
+\title[]{Metodologia Científica}
+\subtitle[]{Estruturação do trabalho científico}
+\author[]{Patrícia Lucas\\{\footnotesize }}
+\institute{Bacharelado em Sistemas de Informação \\ IFNMG  - Campus Salinas}
+\date{\scriptsize Salinas\\Fevereiro 2021}
+
+\begin{document}
+
+% cover page
+\setbeamertemplate{footline}{}
+\begin{frame}
+
+\begin{center}
+\includegraphics[width=.15\textwidth]{}
+\end{center}
+  \titlepage
+  \begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south east,xshift=-5pt,yshift=5pt] at (current page.south east) {\tiny Versão 1.2021};
+  \node[anchor=south west,yshift=0pt] at (current page.south west) {\includegraphics[width=.25\textwidth]{Logos/salinas_horizontal_jpg.jpg}};
+  \end{tikzpicture}  
+\end{frame}
+
+% Main slides
+\begin{ftst}{A escolha do objetivo da pesquisa}{Estruturação do trabalho científico}
+\justifying
+
+O segredo de um trabalho de pesquisa de sucesso consiste em ter um bom objetivo. Uma vez definido o objetivo do trabalho, tudo o mais gravita em redor dele. 
+\vone
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.13]{Figuras/03_objetivos.png}
+    \label{fig:objetivos}
+\end{figure}
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A escolha do objetivo da pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{O caminho para a escolha de um objetivo de pesquisa:}
+\vone
+\begin{itemize}
+    \item Escolher um tema de pesquisa, ou seja, uma área de conhecimento na qual vai trabalhar.
+    \item Realizar a revisão bibliográfica. A não ser que o autor já seja especialista na área escolhida, ele vai precisar ler muitos trabalhos já publicados nessa área para saber o que está sendo feito (estado da arte) e o que ainda precisa ser feito (problemas em aberto).
+    \item Definir o objetivo de pesquisa. Uma vez feita a revisão bibliográfica, o objetivo de pesquisa possivelmente será fortemente relacionado com um dos problemas em aberto verificados no passo anterior.
+\end{itemize}
+
+\end{ftst}
+
+%=====
+
+
+\begin{ftst}{A escolha do objetivo da pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{O tema:}
+\vone
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{Figuras/03_temas.jpg}
+    \label{fig:temas}
+\end{figure}
+\vone
+ Quanto mais amplo o tema, maior a quantidade de livros e artigos que terão de ser lidos. Portanto, recomenda-se buscar temas cada vez mais específicos antes de propor um objetivo de pesquisa.
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A escolha do objetivo da pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{O problema de pesquisa:}
+\vone
+Uma monografia deve apresentar uma solução para um problema. Inicialmente, portanto, um problema deve ser identificado.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+A revisão bibliográfica deve ser muito bem planejada e conduzida.
+\vone
+Pode-se iniciar a pesquisa com uma leitura de trabalhos mais abrangentes que deem uma visão do todo para depois ir se aprofundando cada vez mais em temas cada vez mais específicos.
+\vone
+Quando se faz uma pesquisa em que alguma técnica de computação é aplicada a alguma outra área do conhecimento, é necessário fazer a revisão bibliográfica sobre a técnica em si sobre a área de aplicação e, mais do que tudo, sobre as aplicações que já foram tentadas com essa técnica ou com técnicas semelhantes na mesma área ou em áreas equivalentes.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{Fichas de leitura:}
+\vone
+Durante todo o processo de leitura, é fundamental que sejam feitas anotações.
+\vone
+Conceitos-chave e ideias novas devem ser anotados sempre que forem detectados na leitura. 
+\vone
+Em geral, inicia-se uma ficha de leitura, seja em papel, seja no computador,
+escrevendo a referência bibliográfica da obra consultada. Em seguida são feitas as anotações relevantes.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{Tipos de fontes bibliográficas:}
+\vone
+\begin{enumerate}
+    \item Livros: apresentar determinada área da ciência de forma didática e bem fundamentada.
+    \item Artigos de eventos ou periódicos: ideias de pesquisa.
+\end{enumerate}
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{O que deve ser necessariamente lido:}
+\vone
+\begin{enumerate}
+    \item Livros e artigos de revisão: esse tipo de bibliografia apresenta ao pesquisador o estado
+da arte da área de pesquisa e sua evolução histórica.
+    \item Trabalhos clássicos: normalmente são destacados nos artigos de revisão.
+    \item Fontes mais recentes sobre o assunto da pesquisa: é fundamental que um trabalho de pesquisa tenha como referência também os desenvolvimentos mais recentes na área.
+\end{enumerate}
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{Como sistematizar a pesquisa bibliográfica:}
+\vone
+\begin{enumerate}
+    \item[a.] Listar os títulos de periódicos e eventos relevantes para o tema de pesquisa e os títulos de periódicos gerais em computação que eventualmente possam ter algum artigo na área do tema de pesquisa.
+    \item[b.] Obter a lista e todos os artigos publicados nos últimos cinco anos (ou mais) nesses veículos.
+    \item[c.] Selecionar dessa lista aqueles títulos que tenham relação com o tema de pesquisa.
+    \item[d.] Ler o \textit{abstract} desses artigos e, em função da leitura, classificá-los como relevância “alta”, “média” ou “baixa”.
+\end{enumerate}
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{Como sistematizar a pesquisa bibliográfica:}
+\vone
+\begin{enumerate}
+    \item[e.] Ler os artigos de alta relevância e fazer fichas de leitura anotando os principais conceitos e ideias aprendidos. Anotar também títulos de outros artigos possivelmente mencionados na bibliografia de cada artigo (mesmo que com mais de cinco anos) e que pareçam relevantes para o trabalho de pesquisa. Incluir esses artigos na lista dos que devem ser lidos (inicialmente o \textit{abstract} e, se for relevante, o artigo todo).
+    \item[f.] Dependendo do caso, ler também os artigos de relevância média e baixa, mas iniciando sempre pelos de alta relevância.
+\end{enumerate}
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A revisão bibliográfica}{Estruturação do trabalho científico}
+\justifying
+\textbf{Como sistematizar a pesquisa bibliográfica:}
+\vone
+Depois do último passo, o aluno poderá decidir:
+\vone
+\begin{enumerate}
+    \item[1.] Se já tem material suficiente para elaborar uma ideia de pesquisa consistente.
+    \item[2.] Se precisa expandir a pesquisa examinando artigos mais antigos (expandindo o passo b) ou periódicos menos relevantes (expandindo o passo a).
+
+\end{enumerate}
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O Objetivo}{Estruturação do trabalho científico}
+\justifying
+O objetivo da pesquisa deve ser diretamente verificável ao final do trabalho. Um bom objetivo de pesquisa possivelmente demonstrará que alguma hipótese sendo testada é ou não verdadeira.
+\vone
+Portanto, o objetivo geral e os objetivos específicos do trabalho devem ser expressos na forma de uma condição não trivial cujo sucesso possa vir a ser verificado ao final do trabalho. Um objetivo bem expresso, em geral, terá verbos como “demonstrar”, “provar”, “melhorar” (de acordo com alguma métrica definida) etc.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O Objetivo}{Estruturação do trabalho científico}
+\justifying
+\textbf{A extensão do objetivo de pesquisa:}
+\vone
+Alunos de graduação e pós-graduação devem atingir os objetivos colocados dentro do tempo regulamentar que os seus cursos estabelecem e, portanto, a complexidade desses objetivos deve ser consistente com esse tempo.
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O Objetivo}{Estruturação do trabalho científico}
+\justifying
+\textbf{Objetivo de pesquisa versus objetivo técnico:}
+\vone
+É aceitável que um trabalho de graduação e mesmo de especialização tenha objetivos técnicos, ou seja, espera-se nesses graus que os alunos sejam capazes de demonstrar que aprenderam determinados conceitos e conseguem colocá-los em prática. 
+\vone
+Assim, é aceitável que um aluno de graduação, ao final de seu curso, desenvolva um sistema usando conceitos aprendidos durante o curso e que apresente o sistema como trabalho final. 
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O Objetivo}{Estruturação do trabalho científico}
+\justifying
+\textbf{Os objetivos específicos:}
+\vone
+Os objetivos específicos devem ser escolhidos da mesma forma que o objetivo geral, ou seja, devem ser não triviais e verificáveis ao final do trabalho. Normalmente, os objetivos específicos não são etapas do trabalho, mas subprodutos. 
+\vone
+Deve-se tomar cuidado para não confundir os objetivos específicos com os passos do método de pesquisa. 
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+Em geral, as monografias têm um capítulo ou seção designado “metodologia”. Entretanto, metodologia seria o estudo dos métodos. Apesar do uso corrente, linguisticamente seria mais correto afirmar que um trabalho científico individualmente tem um método de pesquisa e não uma metodologia. 
+\vone
+O método de um trabalho científico só pode ser estabelecido depois que o objetivo tiver sido definido. Por esse motivo, a revisão bibliográfica não deveria nem fazer parte do método.
+\vone
+A etapa de revisão bibliográfica é um pré-requisito para a realização do trabalho de pesquisa, pois quem não estudou o assunto não tem como propor um objetivo válido.
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+O método consiste na sequência de passos necessários para demonstrar que o objetivo proposto foi atingido, ou seja, se os passos definidos no método forem executados, os resultados obtidos deverão ser convincentes.
+\vone
+O método deve então indicar se protótipos serão desenvolvidos, se modelos teóricos serão construídos, quais experimentos eventualmente serão realizados, como os dados serão organizados
+e comparados, e assim por diante, dependendo do tipo de trabalho.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+Descrever um conjunto de passos que constitua um método de trabalho científico aceitável exige alguns conhecimentos sobre o método científico.
+\vone
+Coisas como “trabalhar com dois grupos, um com a ferramenta e outro sem a ferramenta” até poderia
+ser parte de um método, mas não é suficiente. 
+\vone
+Se a diferença entre as médias dos dois grupos for de $0.5$ ponto percentual, pode-se concluir que um grupo foi melhor que o outro? Ou pode ter sido obra do acaso? E se a diferença for de cinco pontos percentuais?
+\vone
+Como saber? Existem algumas informações trazidas pela estatística que devem ser do conhecimento de qualquer pessoa que se aventure a desenvolver pesquisa científica.
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{Dados versus conceitos}
+\vone
+O método de pesquisa não consiste apenas em coletar dados para suportar a hipótese de trabalho. 
+\vone
+Trabalhos acadêmicos que se restringem à realização de pesquisas de opinião através de questionários com a consequente tabulação dos dados e apresentação de gráficos não terão validade se não trouxerem consigo alguma informação nova.
+\vone
+Exemplo: há algum tempo pesquisadores realizaram uma pesquisa na Inglaterra, onde entrevistaram homens e mulheres perguntando quantos parceiros sexuais haviam tido ao longo da vida.
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{Definições constitutivas e operacionais}
+\vone
+As definições constitutivas são definições de dicionário. 
+\vone
+As definições operacionais atribuem significado a um constructo ou variável especificando as atividades ou ‘operações’ necessárias para medi-lo ou manipulá-lo.”
+\vone
+Exemplo: o termo “facilidade” pode ser definido como o número de toques no teclado ou mouse para realizar determinada tarefa.
+\vone
+O importante aqui é enfatizar que, no caso de variáveis que representem características não formais, é necessário utilizar definições operacionais para que o fenômeno associado à variável possa efetivamente ser medido. Sem isso o trabalho seria apenas especulativo.
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{Variáveis}
+\vone
+Uma variável é um nome que se dá a um fenômeno que pode ser medido e que varia conforme a medição. Se não variasse, seria uma constante e não teria maior
+interesse para a pesquisa.
+\vone
+\textbf{Variáveis \textbf{contínuas} versus variáveis \textit{discretas}}.
+\vone
+Variáveis \textbf{categóricas}: variáveis discretas que assumem seus valores em conjuntos finitos. Exemplo: as notas que um estudante pode obter em uma disciplina variam no conjunto {A, B, C, E}.
+\vone
+\textbf{Discretização}: consiste em atribuir um valor discreto diferente para variados intervalos de valores contínuos. Exemplo: as notas de uma disciplina de $0.0$
+a $4.9$ poderiam ser consideradas como conceito E.
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{Variáveis \textit{medidas} versus variáveis \textit{manipuladas}.}
+\vone
+Uma \textbf{variável medida} é aquela cujo fenômeno será observado pelo pesquisador. Exemplo: quantas vezes um usuário de uma ferramenta vai olhar no manual para obter informações para desempenhar a tarefa que lhe foi proposta. Essa variável tem como domínio o conjunto dos números naturais, e seus valores não são determinados pelo observador, mas simplesmente medidos.
+\vone
+Já a \textbf{variável manipulada} é aquela que o experimentador vai deliberadamente modificar para realizar seu experimento. Exemplo: o número de passos da tarefa repassada aos usuários.
+
+\vone
+O pesquisador manipularia a variável para tentar descobrir se tarefas mais longas implicam ou não o usuário consultar o manual do sistema mais vezes.
+
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{O método de pesquisa}{Estruturação do trabalho científico}
+\justifying
+\textbf{Variáveis \textit{independentes} versus variáveis \textit{dependentes}.}
+\vone
+Exemplo: o número de passos em uma tarefa implica o aumento do número de vezes que o usuário consulta o manual?
+\vone
+Essa seria uma hipótese de pesquisa em que a variável dependente é o número de consultas ao manual, e a variável independente é o número de passos da tarefa.
+\vone
+Em geral, o pesquisador manipula a variável independente e mede a dependente. 
+
+\end{ftst}
+
+%=====
+
+\begin{ftst}{A hipótese de pesquisa}{Estruturação do trabalho científico}
+\justifying
+Um aspecto que diferencia o trabalho científico do trabalho técnico é a existência de uma hipótese de pesquisa. 
+\vone
+A hipótese é uma afirmação da qual não se sabe a princípio se é verdadeira ou falsa. O trabalho de pesquisa consiste justamente em tentar provar a veracidade ou a falsidade da hipótese.
+\vone
+Um objetivo sem uma boa hipótese pode ser muito arriscado. O objetivo consiste em tentar produzir algum conhecimento que ainda não existe. Mas, se não houver uma boa hipótese para justificar esse objetivo, corre-se o risco de realizar a pesquisa sem obter resultados.  
+
+\end{ftst}
+
+%=====
+
+
+
+\end{document}
