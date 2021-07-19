@@ -17,5 +17,9 @@ BIBLIOGRAFIA COMPLEMENTAR:
 4. MEDEIROS, J. B. Redação Científica: A Prática de Fichamentos, Resumos, Resenhas. 7. ed. São Paulo: Atlas, 2005.
 5. MATTAR NETO, J. A. Metodologia Científica na Era da Informática. 3. ed. São Paulo: Saraiva, 2008.
 
+MATERIAIS EXTRAS:
+1. Materiais da Professora Mirella M. Moro da UFMG: [link](https://homepages.dcc.ufmg.br/~mirella/doku.php.)
+2. Guia para redação científica criado por Nathan Sheffield para a Es-cola de Pós-Graduação da Duke University : [link](https://sites.duke.edu/scientificwriting/)
+
 
 ------
