@@ -12,7 +12,7 @@ BIBLIOGRAFIA BÁSICA:
 
 BIBLIOGRAFIA COMPLEMENTAR:
 1. GIL, A. C. Como elaborar Projetos de pesquisa. 5. ed. São Paulo: Atlas, 2010.
-2. 2. NASCIMENTO, E. P. Como Escrever (e Publicar) um Trabalho Científico: Dicas para Pesquisadores e Jovens Cientistas. Garamond, 2010.
+2. NASCIMENTO, E. P. Como Escrever (e Publicar) um Trabalho Científico: Dicas para Pesquisadores e Jovens Cientistas. Garamond, 2010.
 3. SANTOS, J. A.; PARRA FILHO, D. Metodologia Científica. 2. ed. Cengage Learning, 2012.
 4. MEDEIROS, J. B. Redação Científica: A Prática de Fichamentos, Resumos, Resenhas. 7. ed. São Paulo: Atlas, 2005.
 5. MATTAR NETO, J. A. Metodologia Científica na Era da Informática. 3. ed. São Paulo: Saraiva, 2008.
